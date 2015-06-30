@@ -138,6 +138,7 @@ public class MultiImageChooserActivity extends Activity implements OnItemClickLi
 
         gridView = (GridView) findViewById(fakeR.getId("id", "gridview"));
         gridView.setOnItemClickListener(this);
+        gridView.setFastScrollEnabled(false);
         gridView.setOnScrollListener(new OnScrollListener() {
             private int lastFirstItem = 0;
             private long timestamp = System.currentTimeMillis();
