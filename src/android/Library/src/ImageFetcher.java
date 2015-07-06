@@ -283,7 +283,7 @@ public class ImageFetcher {
      * Garbage Collector.
      */
 
-    private static final int HARD_CACHE_CAPACITY = 100;
+    private static final int HARD_CACHE_CAPACITY = 13;
     private static final int DELAY_BEFORE_PURGE = 10 * 1000; // in milliseconds
 
     // Hard cache, with a fixed maximum capacity and a life duration
